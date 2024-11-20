@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./Component/Navbar";
 
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -20,11 +21,10 @@ export const metadata = {
   description: "We brought a revolution in link sharing",
 };
 
+
+
+
 export default function RootLayout({ children }) {
-
-
-
-
 
   return (
     <html lang="en">

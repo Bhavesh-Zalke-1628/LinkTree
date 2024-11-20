@@ -10,8 +10,9 @@ export default function Home() {
 
 
   const createTree = () => {
-
-    router.push(`/generate?handle=${text}`)
+    let link
+    if (text.startsWith(""))
+      router.push(`/generate?handle=${text}`)
   }
   return (
     <main>
